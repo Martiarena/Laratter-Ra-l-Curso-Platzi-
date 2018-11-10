@@ -1,0 +1,38 @@
+Accesos Platzi:
+---------------
+luizupdate@gmail.com
+gru20po2003
+
+Videos:
+-------
+Me quedé en el 10.
+
+Pasos para Instalar:
+--------------------
+
+1.- Bajar Composer desde su web y ejecutar el código de instalación.
+2.- En el CMD: [ composer global require "laravel/installer" ] para instalar composer y listo xd.
+3.- Ejecutar Composer: [ php composer.phar install ]
+4.- Crear Proyecto [ composer create-project laravel/laravel laratter ]
+
+Seleccionar Carpeta de Proyecto:
+--------------------------------
+
+Comandos:	php artisan serve
+		cd C:\xampp\htdocs\cursos\Laravel\Laratter
+
+
+
+Crear Páginas:
+--------------
+php artisan make:controller PagesController
+
+Instalar Migraciones:
+---------------------
+1.- php artisan migrate:install
+2.- En app/Providers/AppProviderService
+Cabecera: useIlluminate\Support\Facades\Schema;
+En publicfunctionboot() : Schema::defaultStringLength(191);
+3.- php artisan migrate
+
+

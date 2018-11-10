@@ -17,11 +17,13 @@
 			<img class="img-thumbnail" src="{{ $message['image'] }}">
 			<p class="card-text">
 				{{ $message['content'] }}
-				<a href="/messages/{{ $message['id'] }}">Leer m·s</a>
+				<a href="/messages/{{ $message['id'] }}">Leer m√°s</a>
 			</p>
 		</div>
 	@empty
 		<p>No hay mensajes destacados.</p>
 	@endforelse
+</div>
+@endsectionforelse
 </div>
 @endsection
